@@ -11,12 +11,7 @@ Projects in C++ Language
 ### The results of the experiment for each function should be arranged in the form of tables (when conducting experiments, use matrices from 500 × 500 to 2000 × 2000, calculate for two types of data int and double):
 ### * - perform several implementations, in particular for Intel Cilk Plus using cilk_for, cilk_spawn, extended index notation, etc.
 							Results
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-			<title>Excel To HTML using codebeautify.org</title>
-		</head>
+
 		<body>
 			<b>
 				<u>Sheet Name</u> :- Лист1
@@ -405,5 +400,4 @@ Projects in C++ Language
 					</tr>
 				</table>
 				<hr>
-				</body>
-			</html>
+		
