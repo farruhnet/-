@@ -2,14 +2,14 @@
 Projects in C++ Language
 
 
-Develop a console application in Visual Studio 2010/2012 that performs the following actions on matrices
- Addition (by elements)
- Multiplication (by elements)
- Calculating the sum of elements
- Search for the maximum element
-When implementing the use of OpenMP and Intel Cilk Plus. Conduct experimental research on data processing with different implementations (at least 50 launches for each implementation).
-The results of the experiment for each function should be arranged in the form of tables (when conducting experiments, use matrices from 500 × 500 to 2000 × 2000, calculate for two types of data int and double):
-* - perform several implementations, in particular for Intel Cilk Plus using cilk_for, cilk_spawn, extended index notation, etc.
+## Develop a console application in Visual Studio 2010/2012 that performs the following actions on matrices
+### * Addition (by elements)
+### * Multiplication (by elements)
+### * Calculating the sum of elements
+### * Search for the maximum element
+### When implementing the use of OpenMP and Intel Cilk Plus. Conduct experimental research on data processing with different implementations (at least 50 launches for each implementation).
+### The results of the experiment for each function should be arranged in the form of tables (when conducting experiments, use matrices from 500 × 500 to 2000 × 2000, calculate for two types of data int and double):
+### * - perform several implementations, in particular for Intel Cilk Plus using cilk_for, cilk_spawn, extended index notation, etc.
 							
 FUnction (реализация)	threats 	500х500		1000х1000		2000х2000	
 		int	double	int	double	int	double
@@ -38,6 +38,8 @@ Sum of elements (Cilk) 	2	0.00235892	0.00477958	0.00843515	0.00446083	0.00383778
 	3	0.00170348	0.004371	0.00718385	0.00434175	0.00394917	0.00505721
 	4	0.00183356	0.00421895	0.00706447	0.00451831	0.00387427	0.00483277
 Sum of el (Cilk) full index	2	0.000652303	0.000850219	0.00267276	0.00289216	0.00165034	0.003262
+**
+
 	3	0.000663245	0.000696082	0.00267052	0.00284405	0.00102167	0.00183774
 	4	0.000703768	0.000616659	0.00284438	0.00281923	0.00108136	0.00207036
 Max (OMP) 	2	0.000794218	0.000953347	0.00405776	0.00314634	0.00276016	0.00446112
