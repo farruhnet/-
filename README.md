@@ -12,14 +12,15 @@ Projects in C++ Language
 ### * - perform several implementations, in particular for Intel Cilk Plus using cilk_for, cilk_spawn, extended index notation, etc.
 							Results
 
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
-			
+			<title>Excel To HTML using codebeautify.org</title>
 		</head>
 		<body>
 			<b>
-				<u>Sheet Name</u> :- Table 1
+				<u>Sheet Name</u> :- Лист1
 			</b>
 			<hr>
 				<table cellspacing=0 border=1>
