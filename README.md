@@ -16,11 +16,11 @@ Projects in C++ Language
 <html>
 	<head>
 		<meta charset="UTF-8">
-			
+			<title>Excel To HTML using codebeautify.org</title>
 		</head>
 		<body>
 			<b>
-				<u>Sheet Name</u> :- Лист1
+				<u>Sheet Name</u> :- Table1
 			</b>
 			<hr>
 				<table cellspacing=0 border=1>
